@@ -83,6 +83,7 @@ namespace FaceReaderExternalLoggingSample
                 else
                     WriteInfo(rtbMessages, "There is no connection to disconnect");
             }
+            mFaceReaderController = null;
         }
 
 
